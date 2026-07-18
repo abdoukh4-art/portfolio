@@ -52,7 +52,7 @@ export type Dict = {
   };
   learn: {
     heading: string;
-    intro: string;
+    bio: { title: string; paragraphs: string[] };
     cta: string;
     langNote: string;
     topics: { slug: string; status: string; title: string; description: string }[];
@@ -189,8 +189,14 @@ const en: Dict = {
   },
   learn: {
     heading: "Learn how to",
-    intro:
-      "This portfolio has a second goal: passing on what I learn. Each topic below is an active lesson built from my own learning files — not a tutorial to copy-paste, but explanations anchored in real code, with exercises designed to make you actually work. I'm the first student here.",
+    bio: {
+      title: "Learning, without lying to myself.",
+      paragraphs: [
+        "This section is not a collection of course notes. It's a personal learning system in action, grounded in cognitive science (active recall, spacing, prediction before execution), with one simple invariant: **no mastery is claimed without a test.**",
+        "Every concept follows the same loop: I answer cold before reading, I run and break the code after predicting what will happen, then I face a test — rebuilding from scratch, trap questions, telling confusable concepts apart. The test counter you see here is honest: what isn't validated doesn't count.",
+        "The goal isn't to accumulate content. It's to make the illusion of mastery structurally impossible.",
+      ],
+    },
     cta: "Open the lessons",
     langNote: "Lessons are in French for now.",
     topics: [
@@ -357,8 +363,14 @@ const fr: Dict = {
   },
   learn: {
     heading: "Apprendre à",
-    intro:
-      "Ce portfolio a un deuxième objectif : transmettre ce que j'apprends. Chaque sujet ci-dessous est une leçon active issue de mes propres fichiers d'apprentissage — pas un tutoriel à copier-coller, mais des explications ancrées dans du vrai code, avec des épreuves faites pour vous faire vraiment travailler. Le premier étudiant ici, c'est moi.",
+    bio: {
+      title: "Apprendre, sans se mentir.",
+      paragraphs: [
+        "Cette section n'est pas une collection de notes de cours. C'est l'application d'un système personnel d'apprentissage, fondé sur la science cognitive (récupération active, espacement, prédiction avant exécution), dont l'invariant est simple : **aucune maîtrise n'est déclarée sans épreuve.**",
+        "Chaque concept suit la même boucle : je réponds à froid avant de lire, j'exécute et je casse le code en prédisant ce qui va se passer, puis je passe une épreuve — reconstruction de zéro, questions-pièges, discrimination entre concepts confusables. Le compteur d'épreuves que vous voyez est honnête : ce qui n'est pas validé ne compte pas.",
+        "Le but n'est pas d'accumuler du contenu. C'est de rendre l'illusion de maîtrise structurellement impossible.",
+      ],
+    },
     cta: "Ouvrir les leçons",
     langNote: "Leçons en français.",
     topics: [

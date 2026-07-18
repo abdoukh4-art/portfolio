@@ -12,6 +12,23 @@ type LearnIndexProps = {
   exportTopics: { slug: string; title: string; lessons: string[] }[];
 };
 
+// Renders **bold** spans from the content dictionary.
+function RichText({ text }: { text: string }) {
+  return (
+    <>
+      {text.split("**").map((part, i) =>
+        i % 2 === 1 ? (
+          <strong key={i} className="text-ink font-semibold">
+            {part}
+          </strong>
+        ) : (
+          part
+        ),
+      )}
+    </>
+  );
+}
+
 function LearnIndexContent({ topicLessons, exportTopics }: LearnIndexProps) {
   const { t } = useLanguage();
   return (
@@ -42,9 +59,16 @@ function LearnIndexContent({ topicLessons, exportTopics }: LearnIndexProps) {
           <h1 className="font-display text-4xl font-bold tracking-tight leading-tight mb-4">
             {t.learn.heading}
           </h1>
-          <p className="text-muted max-w-2xl mb-6 leading-relaxed">
-            {t.learn.intro}
-          </p>
+          <div className="border-l-2 border-accent pl-6 max-w-2xl mb-8">
+            <p className="font-display text-xl font-semibold tracking-tight mb-4">
+              {t.learn.bio.title}
+            </p>
+            {t.learn.bio.paragraphs.map((p, i) => (
+              <p key={i} className="text-muted leading-relaxed mb-4 last:mb-0">
+                <RichText text={p} />
+              </p>
+            ))}
+          </div>
           <div className="mb-12">
             <ExportNotes topics={exportTopics} />
           </div>
