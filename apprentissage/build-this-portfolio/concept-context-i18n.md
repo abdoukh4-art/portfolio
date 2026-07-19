@@ -1,5 +1,11 @@
 # Le pattern Context — i18n EN/FR
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [jsx-syntaxe](/learn/prerequis#jsx-syntaxe) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. En React (SGS), si un composant profondément imbriqué a besoin d'une donnée détenue par un composant très au-dessus, comment fais-tu passer cette donnée aujourd'hui ?

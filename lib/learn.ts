@@ -94,6 +94,34 @@ export type Lesson = {
   markdown: string;
 };
 
+// Prerequisite files: apprentissage/prerequis/<nom>.md — gatekeeper test
+// first, micro-explanation after. Status lives in the file itself and is
+// only updated by prof when Abdou passes the test.
+export type Prereq = {
+  slug: string;
+  markdown: string;
+  status: string; // "[non testé]" | "[validé le <date>]"
+};
+
+const PREREQ_DIR = path.join(APPRENTISSAGE_DIR, "prerequis");
+
+export function getPrereqs(): Prereq[] {
+  if (!fs.existsSync(PREREQ_DIR)) return [];
+  return fs
+    .readdirSync(PREREQ_DIR)
+    .filter((f) => f.endsWith(".md") && f !== "_index.md")
+    .sort()
+    .map((filename) => {
+      const markdown = fs.readFileSync(path.join(PREREQ_DIR, filename), "utf-8");
+      const m = /statut\s*:\s*(\[.+?\])/i.exec(markdown);
+      return {
+        slug: filename.replace(/\.md$/, ""),
+        markdown,
+        status: m?.[1] ?? "[non testé]",
+      };
+    });
+}
+
 export function getLessons(topicSlug: string): Lesson[] {
   const topic = learnTopics.find((t) => t.slug === topicSlug);
   const topicDir = path.join(APPRENTISSAGE_DIR, topicSlug);

@@ -1,5 +1,12 @@
 # Architecture hors-ligne : zéro backend, pas une PWA cachée
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [http-requete-reponse](/learn/prerequis#http-requete-reponse) — statut: [non testé]
+- [npm-node-modules](/learn/prerequis#npm-node-modules) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. Dans SGS, quand une page React affichait une liste (utilisateurs, réservations...), écris le chemin complet que suivaient les données, du composant jusqu'à PostgreSQL.

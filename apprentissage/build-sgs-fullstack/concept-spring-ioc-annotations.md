@@ -1,5 +1,13 @@
 # Spring Boot le cœur — inversion de contrôle et annotations
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [http-requete-reponse](/learn/prerequis#http-requete-reponse) — statut: [non testé]
+- [sql-de-base](/learn/prerequis#sql-de-base) — statut: [non testé]
+- [json-format](/learn/prerequis#json-format) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. En JavaScript ou Python (maîtrisé), quand une classe `StageService` a besoin d'un `StageRepository` pour fonctionner, comment le lui donnes-tu concrètement — écris la ligne de code ?

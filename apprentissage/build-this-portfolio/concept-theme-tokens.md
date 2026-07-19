@@ -1,5 +1,11 @@
 # Tokens de design — @theme et next/font
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [jsx-syntaxe](/learn/prerequis#jsx-syntaxe) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. Dans SGS, où mettais-tu une valeur de config utilisée à plusieurs endroits (ex. une URL, un timeout) — codée en dur partout, ou centralisée quelque part ?

@@ -1,5 +1,11 @@
 # JPA/Hibernate — des classes Java aux lignes PostgreSQL
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [sql-de-base](/learn/prerequis#sql-de-base) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. En Laravel (en cours), une migration (`Schema::create('stages', function (Blueprint $table) {...})`) est un fichier séparé qui décrit les colonnes d'une table. Dans SGS, ouvre `Stage.java` — où est le fichier qui décrit la table `stages` de PostgreSQL (maîtrisé) ?

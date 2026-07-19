@@ -55,6 +55,7 @@ export type Dict = {
     bio: { title: string; paragraphs: string[] };
     cta: string;
     langNote: string;
+    prereqCard: { status: string; title: string; description: string };
     topics: { slug: string; status: string; title: string; description: string }[];
   };
   contact: {
@@ -199,6 +200,12 @@ const en: Dict = {
     },
     cta: "Open the lessons",
     langNote: "Lessons are in French for now.",
+    prereqCard: {
+      status: "foundations · gatekeeper test first",
+      title: "Prerequisites — test before you read",
+      description:
+        "The concepts every lesson leans on. Each one opens with a gatekeeper test: pass it and move on; fail it and read the few lines that fix it. Never read before trying.",
+    },
     topics: [
       {
         slug: "build-this-portfolio",
@@ -373,6 +380,12 @@ const fr: Dict = {
     },
     cta: "Ouvrir les leçons",
     langNote: "Leçons en français.",
+    prereqCard: {
+      status: "fondations · épreuve-portier d'abord",
+      title: "Prérequis — tente avant de lire",
+      description:
+        "Les concepts sur lesquels toutes les leçons s'appuient. Chacun s'ouvre sur une épreuve-portier : réussie, tu continues ; ratée, tu lis les quelques lignes qui comblent, et tu repasses. Ne lis jamais avant d'avoir tenté.",
+    },
     topics: [
       {
         slug: "build-this-portfolio",

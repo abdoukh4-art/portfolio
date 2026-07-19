@@ -1,5 +1,11 @@
 # React les fondamentaux — composant, props, useState, useEffect
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [jsx-syntaxe](/learn/prerequis#jsx-syntaxe) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. En JavaScript pur (maîtrisé), une fonction `formaterOffre(offer)` reçoit une donnée en paramètre et renvoie un résultat, sans jamais modifier `offer` de l'extérieur. `OfferCard({ offer, actions, onClick })` dans SGS reçoit ses données de la même façon — comment appelle-t-on ce mécanisme en React ?

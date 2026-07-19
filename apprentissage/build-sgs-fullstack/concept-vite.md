@@ -1,5 +1,12 @@
 # Vite — l'outillage qui fait tourner et compile le frontend
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [npm-node-modules](/learn/prerequis#npm-node-modules) — statut: [non testé]
+- [variables-environnement](/learn/prerequis#variables-environnement) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. Quand tu fais `mvn spring-boot:run` (ou Run dans l'IDE), Spring Boot démarre un serveur Tomcat embarqué sans que tu configures rien à part. Côté React/TypeScript, un navigateur peut-il exécuter directement un fichier `.tsx` tel quel ?

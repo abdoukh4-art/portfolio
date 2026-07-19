@@ -74,6 +74,22 @@ function LearnIndexContent({ topicLessons, exportTopics }: LearnIndexProps) {
           </div>
         </Reveal>
         <div className="space-y-6">
+          <Reveal>
+            <Link
+              href="/learn/prerequis"
+              className="group block border border-dashed border-accent/50 rounded-lg px-6 py-5 hover:border-accent transition-colors"
+            >
+              <p className="font-mono text-xs text-accent mb-2">
+                {t.learn.prereqCard.status}
+              </p>
+              <h2 className="font-display text-xl font-semibold tracking-tight mb-2">
+                {t.learn.prereqCard.title}
+              </h2>
+              <p className="text-muted text-sm leading-relaxed max-w-2xl">
+                {t.learn.prereqCard.description}
+              </p>
+            </Link>
+          </Reveal>
           {t.learn.topics.map((topic) => (
             <Reveal key={topic.slug}>
               <Link

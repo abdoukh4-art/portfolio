@@ -1,5 +1,12 @@
 # Le "pipeline TTS" : en réalité l'API vocale native du navigateur
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [dom-bases](/learn/prerequis#dom-bases) — statut: [non testé]
+- [promesses-async-js](/learn/prerequis#promesses-async-js) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. En JS, une Promise résolue par `fetch()` se résout de façon asynchrone. La voix qui raconte les histoires dans Rawiya — d'après toi, appelle-t-elle une API externe de synthèse vocale (type modèle IA hébergé), ou fait-elle autre chose ? Justifie avant de lire la suite.

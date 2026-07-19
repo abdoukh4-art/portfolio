@@ -1,5 +1,13 @@
 # Docker & docker-compose — faire parler plusieurs services entre eux
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [http-requete-reponse](/learn/prerequis#http-requete-reponse) — statut: [non testé]
+- [sql-de-base](/learn/prerequis#sql-de-base) — statut: [non testé]
+- [variables-environnement](/learn/prerequis#variables-environnement) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. Dans `application.properties`, tu as `spring.datasource.url=${DB_URL:jdbc:postgresql://localhost:5432/sgs_db}`. Que doit contenir ta machine pour que cette ligne fonctionne, aujourd'hui, sans Docker ?

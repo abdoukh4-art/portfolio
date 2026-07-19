@@ -1,5 +1,11 @@
 # react-router — synchroniser l'URL avec les composants affichés
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [jsx-syntaxe](/learn/prerequis#jsx-syntaxe) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. En React pur (mastered), sans librairie de routing, comment changerais-tu d'« écran » — un state `currentPage` avec du rendu conditionnel ? Quel problème ça pose pour le bouton retour du navigateur ou un lien partagé ?

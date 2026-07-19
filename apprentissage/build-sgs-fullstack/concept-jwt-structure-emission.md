@@ -1,5 +1,11 @@
 # JWT côté serveur — fabriquer et vérifier un jeton signé
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [json-format](/learn/prerequis#json-format) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. Tu as déjà appelé `jwtService.generateToken(email, role, ecoleId)` dans `AuthService` sans t'arrêter dessus. Colle mentalement un JWT quelconque sur jwt.io : il ressemble à trois blocs de texte séparés par des points. As-tu une idée de ce qu'il y a dans chacun ?

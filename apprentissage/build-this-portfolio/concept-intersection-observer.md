@@ -1,5 +1,12 @@
 # IntersectionObserver et prefers-reduced-motion
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [jsx-syntaxe](/learn/prerequis#jsx-syntaxe) — statut: [non testé]
+- [dom-bases](/learn/prerequis#dom-bases) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. En React, comment déclares-tu d'habitude qu'une fonction doit réagir à un événement (clic, changement d'input) ?

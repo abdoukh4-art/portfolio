@@ -1,5 +1,11 @@
 # La couche provider LLM — une interface sans héritage (Protocol)
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [variables-environnement](/learn/prerequis#variables-environnement) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. En Spring Boot (SGS), tu as déjà défini une interface (Repository, Service) avec plusieurs implémentations, et laissé Spring choisir laquelle injecter. Qu'est-ce qui, côté classe, doit être écrit explicitement pour que Java accepte qu'une classe « implémente » cette interface ?

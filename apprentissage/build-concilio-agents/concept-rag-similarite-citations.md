@@ -1,5 +1,11 @@
 # Chroma, similarité cosinus et la citation [n] traçable
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [sql-de-base](/learn/prerequis#sql-de-base) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. En PostgreSQL (SGS), `SELECT * FROM table WHERE id = 42` renvoie une ligne exacte ou rien du tout. `store.query(question, k=5)` (`rag/store.py`) renvoie presque toujours 5 résultats, même hors sujet. Pourquoi ce comportement différent ?

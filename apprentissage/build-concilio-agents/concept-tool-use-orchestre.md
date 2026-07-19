@@ -1,5 +1,12 @@
 # Tool-use dans Consilio — qui décide d'appeler l'outil ?
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [http-requete-reponse](/learn/prerequis#http-requete-reponse) — statut: [non testé]
+- [json-format](/learn/prerequis#json-format) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. Le README classe « Tool-use » comme un des 5 piliers, illustré par `agents/researcher.py`. Ouvre ce fichier : y a-t-il un seul appel à `provider.complete(...)` (donc un appel LLM) dedans ?

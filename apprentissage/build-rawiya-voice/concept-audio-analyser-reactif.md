@@ -1,5 +1,11 @@
 # Web Audio API : lire l'intensité du son, pas juste le jouer
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [dom-bases](/learn/prerequis#dom-bases) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. Dans `AudioPlayer.jsx`, la balise `<audio>` lit déjà le mp3 (play/pause/volume/currentTime) — une API que tu connais. Le fond d'écran de Rawiya "pulse" au rythme de la voix pendant la narration. Comment ferais-tu, en JS, pour savoir à chaque instant si le son est fort ou faible, à partir de cette balise ?

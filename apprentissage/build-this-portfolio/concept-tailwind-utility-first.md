@@ -1,5 +1,11 @@
 # Tailwind — utility-first
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [jsx-syntaxe](/learn/prerequis#jsx-syntaxe) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. En React (SGS), comment appliquais-tu du style à un élément — un fichier `.css` séparé, du CSS inline, autre chose ?

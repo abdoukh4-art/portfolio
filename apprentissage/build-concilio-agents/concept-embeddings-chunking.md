@@ -1,5 +1,11 @@
 # Vectoriser du texte — chunking et embeddings
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [decorateurs-python](/learn/prerequis#decorateurs-python) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. Le PDF `2005.11401.pdf` (papier RAG) fait des dizaines de pages. Si Consilio donnait « tout le PDF » au LLM à chaque question posée, quelle limite technique concrète rencontrerait-il en premier ?

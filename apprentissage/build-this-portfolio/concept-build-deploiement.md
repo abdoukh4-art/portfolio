@@ -1,5 +1,11 @@
 # Build statique et déploiement
 
+## Prérequis
+
+> Pour chaque prérequis [non testé] : passe son épreuve-portier d'abord. Réussie → coche et continue. Ratée → lis la fiche, comble, repasse l'épreuve. Ne lis jamais avant d'avoir tenté.
+
+- [npm-node-modules](/learn/prerequis#npm-node-modules) — statut: [non testé]
+
 ## Avant de lire — Reconnaître (à froid)
 
 1. Dans SGS, que produit `mvn package` ? Ce fichier doit-il continuer à "tourner" quelque part pour que les utilisateurs accèdent à l'app ?
